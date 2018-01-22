@@ -1,0 +1,93 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+.container
+{
+
+  width: 100%;
+
+}
+.wrapper
+{
+  width: 900px;
+  margin: auto;
+
+}
+.dark
+{
+  background-color: #000040;
+  color: white;
+
+}
+.light
+{
+  background-color: #FFFFFF;
+
+}
+.medium
+{
+  background-color:  #00b3b3;
+  color: white;
+}
+#top_div
+{
+  height: 50px;
+  line-height: 50px;
+
+}
+#top_right
+{
+
+}
+#top_left{
+  display: inline-block;
+float: right;
+}
+#logo_left
+{
+
+  display: inline-block;
+}
+#logo_right
+{
+  float: right;
+margin-top:30px;
+}
+#textstyle
+{
+  height: 35px;
+  border-radius: 8px;
+
+}
+
+#button
+{
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid green;
+}
+#clear
+{
+  clear: both;
+}
+nav{
+  width: 100%;
+  background-color: #FFFFFF;
+  color: white;
+}
+nav ul{
+  margin: 0px;
+
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 40px;
+}

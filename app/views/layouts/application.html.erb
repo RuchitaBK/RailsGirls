@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsGirls</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+          <li><%= link_to "Home" , root_path %></li>
+        <li><%= link_to "Events" , pages_event_path %></li>
+          <li><%= link_to "RSOC" , pages_rsoc_path %></li>
+            <li><%= link_to "Rubyconf" , pages_rubyconf_path %></li>
+            <li><%= link_to "About" , pages_about_path %></li>
+            <li><%= link_to "contact" , pages_contact_path %></li>
+              <li><%= link_to "registration" , new_user_path %></li>
+
+
+
+
+
+
+
+      </ul>
+      <div id="clear">
+      </div>
+    </nav>
+    <%= yield %>
+
+      </body>
+</html>
